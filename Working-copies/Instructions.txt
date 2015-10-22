@@ -1,0 +1,15 @@
+GITHUB DESKTOP
+1. Download and install the Desktop app from https://desktop.github.com/
+2. Create a local folder: click "+" in the UI, then "Clone" and select the repository
+
+ADDING FILES
+1. Move the file to the local directory
+2. Right click on the repository from the Desktop App, then click on "Open in Git Shell"
+3. Type the following commands
+    git add . //prepares the files for commit)
+    git commit -m "*commit message*" //uploads the files to the server
+    git push origin master //applies modifications to the local repo
+
+REMOVING FILES
+Like adding a file, but instead of add type the following command
+    git rm -r *folder name*
