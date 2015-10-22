@@ -5,4 +5,4 @@ The repository is organized as follows
 SWE2Project1516-myTaxiService
 |_Working Copies    //parts of the file to be avaluated
 |_Assignements      //assignement and istructions
-|_Final versions    //definitive file to be evaluated
+|_Final Versions    //definitive file to be evaluated
