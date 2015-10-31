@@ -4,6 +4,6 @@ Academic Year 2015/2016.
 The repository is organized as follows:
 
 SWE2Project1516-myTaxiService
-|_Working Copies    //parts of the file to be avaluated
+|_Working Copies    //parts of the file to be evaluated
 |_Assignments      //assignments and istructions
 |_Final Versions    //definitive file to be evaluated
