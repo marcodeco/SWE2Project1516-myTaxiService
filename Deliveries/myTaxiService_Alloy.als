@@ -35,7 +35,7 @@ sig Zone {}
 sig Ride{
 	driver: one TaxiDriver,
 	taxi: one Taxi,
-	routes: some Route, //can't be of the same user
+	routes: some Route,
 }
 
 sig Route{
@@ -46,10 +46,10 @@ sig Route{
 	endDate: lone Int,
 	ride: lone Ride,
 	isShared: one Bool,
-	isReserved: one Bool, //if reservationDate is defined => it's a reservation
+	isReserved: one Bool,
 	status: one RouteStatus
 }{
-	numberOfPeople > 0 && numberOfPeople =< 4 //?
+	numberOfPeople > 0 && numberOfPeople =< 4
 	reservationDate > 0
 	reservationDate < beginDate
 	beginDate < endDate
